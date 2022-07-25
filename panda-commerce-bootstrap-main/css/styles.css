@@ -1,13 +1,4 @@
-.panda-bg-info{
-    background-color: #fceae8;
-}
-.categories img{
-    width: 100px;
-}
-.panda-btn-buy-now{
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 9px 25px;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,700&family=Bebas+Neue&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100;1,500&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,700&family=Roboto:wght@300;400;500;700&family=Supermercado+One&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
 }
