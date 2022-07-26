@@ -15,7 +15,7 @@
 
 <body>
   <header class="container">
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
       <div class="container">
         <img src="panda-commerce-bootstrap-main/images/logo.png" alt="">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -28,13 +28,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shoes</a>
+              <a class="nav-link" href="#shoes">Shoes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Backpack</a>
+              <a class="nav-link" href="#bag">Backpack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Subscribe</a>
+              <a class="nav-link" href="#subs">Subscribe</a>
             </li>
           </ul>
         </div>
@@ -140,7 +140,7 @@
     <!-- categories end -->
 
     <!-- shoes section started -->
-    <section class="container">
+    <section class="container" id="shoes">
       <h1>Checkout Our Latest Shoes-2023</h1>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
@@ -184,7 +184,7 @@
     <!-- shoes section started -->
 
     <!-- bags section started -->
-    <section class="container mt-5">
+    <section class="container mt-5" id="bag">
       <h1>Checkout Our Bag Collection-2023</h1>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
@@ -228,7 +228,7 @@
     <!-- bags section end -->
 
     <!-- subscribe section started -->
-    <section style="height: 350px" class="container rounded-3 mt-5 d-flex justify-content-center align-items-center bg-light">
+    <section style="height: 350px" class="container rounded-3 mt-5 d-flex justify-content-center align-items-center bg-light" id="subs">
       <div>
         <h2>Let's stay in touch!</h2>
         <p>Gets update on sales, special and more</p>
