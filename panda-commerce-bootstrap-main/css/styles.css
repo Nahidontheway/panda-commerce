@@ -2,3 +2,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.bg-custom{
+    background: #fceae8;
+}
+.categories img{
+    width: 100px;
+}
